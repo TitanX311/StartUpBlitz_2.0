@@ -9,7 +9,7 @@
 }
 
 .eng-orange {
-    background-color: #D00000;
+    background-color: var(--eng-orange);
 }
 
 .color-white {
