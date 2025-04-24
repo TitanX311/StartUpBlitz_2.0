@@ -14,3 +14,9 @@ Startup Blitz 2.0 is a web-based platform designed to promote and manage entrepr
 - **CSS3**: For styling and layout.
 - **Font Awesome**: For icons in the footer and social links.
 - **Google Fonts**: For typography.
+
+## How to Run
+
+1. Clone the repository or download the project files.
+2. Open `index.html` in any modern web browser.
+3. Ensure you have an active internet connection to load external resources like Font Awesome.
