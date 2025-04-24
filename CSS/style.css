@@ -3,7 +3,9 @@
 
 :root {
     --eng-orange: #D00000;
-    --Penn-red: #9D0208;
+    --penn-red: #9D0208;
+    --chocolate-cosmos: #370617;
+    --rosewood: #6A040F;
   }
 
 
@@ -39,7 +41,7 @@ p {
 }
 
 .navbar .button:hover {
-    background-color: var(--Penn-red);
+    background-color: var(--penn-red);
 }
 
 #text {
@@ -76,6 +78,61 @@ p {
     flex-direction: column;
     font-size: 5em;
 }
+
+/* floating button */
+.floating-container {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    margin: 35px 25px;
+  }
+
+  .floating-container:hover .floating-button {
+    box-shadow: 0 10px 25px var(--chocolate-cosmos); /*rgba(55, 6, 23, 1)*/
+    -webkit-transform: translatey(5px);
+            transform: translatey(5px);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .floating-container .floating-button {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: var(--eng-orange);
+    bottom: 0;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    line-height: 65px;
+    text-align: center;
+    font-size: 23px;
+    z-index: 100;
+    box-shadow: 0 10px 25px -5px var(--rosewood);
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .floating-container .float-element {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 15px auto;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    line-height: 50px;
+    z-index: 0;
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
 
 /*main*/
 .event-details {
@@ -120,7 +177,7 @@ p {
 }
 
 .register-button .btn:hover {
-    background-color: var(--Penn-red);
+    background-color: var(--penn-red);
 }
 
 
