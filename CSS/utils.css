@@ -26,6 +26,10 @@
     cursor: pointer
 }
 
+.algn-center{
+    text-align: center;
+}
+
 /* animation */
 .tracking-in-contract-bck-top {
 	-webkit-animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
