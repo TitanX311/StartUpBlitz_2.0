@@ -3,10 +3,14 @@ const Hours = document.getElementById('hours');
 const Minutes = document.getElementById('minutes');
 const Seconds = document.getElementById('seconds');
 
-const targetDate = new Date("May 31 2025 00:00:00").getTime();
+const targetDate = new Date();
+targetDate.setDate(31);
+targetDate.setMonth(5);
+targetDate.setFullYear(2025);
+
 
 function timer () {
-    const currentDate = new Date().getTime();
+    const currentDate = new Date();
     const distance = targetDate - currentDate;
 
     const days = Math.floor(distance / 1000 / 60 / 60 / 24);
