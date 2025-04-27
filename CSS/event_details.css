@@ -8,9 +8,14 @@
     height: 100vh;
 }
 
+.event-details.dark {
+    background-color: #121212;
+}
+
 .conatainer {
 background-color: #f9f9f9;
 }
+
 
 .event-details-content {
     display: grid;
@@ -26,11 +31,22 @@ background-color: #f9f9f9;
     margin-bottom: 20px;
 }
 
+.event-heading.dark h2 {
+    color: white;
+}
+
 .event-details-content-main p {
     padding: 30px;
     font-size: 1.2rem;
     color: #555;
     margin-bottom: 30px;
+}
+
+.event-details-content-main.dark p {
+    color: white;
+}
+.event-details-content-main.dark ul > li {
+    color: white;
 }
 
 .event-info {
