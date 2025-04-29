@@ -1,0 +1,24 @@
+{
+  "name": "startupblitz_2.0",
+  "version": "1.0.0",
+  "description": "Startup Blitz 2.0 is a web-based platform designed to promote and manage entrepreneurial events. This project includes a responsive landing page with event details, registration options, and a footer with social media links.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite", 
+    "build": "vite build", 
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TitanX311/StartUpBlitz_2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TitanX311/StartUpBlitz_2.0/issues"
+  },
+  "homepage": "https://github.com/TitanX311/StartUpBlitz_2.0#readme",
+  "devDependencies": {
+    "vite": "^6.3.3"
+  }
+}
