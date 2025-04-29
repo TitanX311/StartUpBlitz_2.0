@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("/src/signin_background.jpg");
+  background-image: url("/signin_background.jpg");
   background-size: cover;
   font-size: 14px;
 }
